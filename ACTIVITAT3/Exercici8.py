@@ -1,4 +1,4 @@
-# Pas 1: Demanar a l'usuari que introdueixi 10 números separats per espais
+# Pas 1: Demanar a l'usuari que introdueixi 10
 entrada = input("Introdueix 10 números separats per espais: ")
 
 # Pas 2: Convertir l'entrada en una llista de números enters
