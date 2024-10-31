@@ -10,9 +10,7 @@ def db_connection():
         host="localhost",
         port="5432"
         )
-        connection = conn.cursor()
-        return connection
+        return conn
     except Exception as e:
         print(f"No s'ha pogut connectar a la base de dades: {e}")
-    finally:
-        connection.close()
+   
