@@ -7,7 +7,7 @@ def mostrar_portatils():
             cursor = conn.cursor()
             
             #query per obtenir tots els registres de la taula portatils
-            cursor.execute("SELECT * FROM portatil")
+            cursor.execute("SELECT * FROM portatils")
             
             # utilitzem fetchall per obtenir tots els resultats de la consulta
             rows = cursor.fetchall()
@@ -25,5 +25,3 @@ def mostrar_portatils():
             cursor.close()
             conn.close()
 
-# Llamar a la función para leer y mostrar los registros
-mostrar_portatils()

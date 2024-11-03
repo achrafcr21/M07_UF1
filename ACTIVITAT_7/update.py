@@ -28,3 +28,5 @@ def update_portatil(portatil_id, marca=None, model=None, color=None, memoria=Non
             # Cerrar el cursor y la conexión
             cursor.close()
             conn.close()
+
+update_portatil(2,None, None,None, None, 1200  )
